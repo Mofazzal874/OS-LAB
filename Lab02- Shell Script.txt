@@ -1,0 +1,18 @@
+PS1 = '\W\$' (To remove the additional directory from the terminal 
+
+history (To see all the commands)
+!(no. of the command from history)
+
+
+
+
+-------------------------------------------Shell programming-------------------------------
+
+
+
+chmod (to change permission{mod change))
+
+
+for running the program
+chmod +x program.sh(to give permission to the directory - will be executed one time for one directory. If directory is changed , then this line should be executed again)
+./program.sh(to run the program .Have to give the directory if you want to 
