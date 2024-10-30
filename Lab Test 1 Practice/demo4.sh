@@ -1,0 +1,1 @@
+echo "Welcome $1 $2 , Your date of birth is $3 and you are $4 years old"

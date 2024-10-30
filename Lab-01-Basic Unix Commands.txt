@@ -1,0 +1,101 @@
+PS1 = '\W\$' (To remove the additional directory from the terminal 
+
+history (To see all the commands)
+!(no. of the command from history)
+
+
+
+
+-------------------------------------------Shell programming-------------------------------
+
+
+
+chmod (to change permission{mod change))
+
+
+for running the program
+chmod +x program.sh(to give permission to the directory - will be executed one time for one directory. If directory is changed , then this line should be executed again)
+./program.sh(to run the program .Have to give the directory if you want to 
+
+
+
+file system in linux ----->
+mkdir (to make a directory)
+rmdir (to remove an empty directory)
+rm -r ( recursive to remove a directory with files)  --this is one of the dangerous command
+
+
+
+
+Navigation in linux ------>
+
+pwd(print working directory)
+
+cd (tab for auto completion)
+cd ..(to go back)
+cd / (to go to root directory)
+cd ~ (to go to home directory)
+cd - (to go to previous  working directory)
+
+
+
+move command -------->
+
+mv [source] [destination]
+mv file1.txt /home/username/Desktop (to move file1.txt to desktop)
+mv file1.txt file2.txt (to rename file1.txt to file2.txt)
+
+
+
+creating a file in linux----->
+
+touch file1.txt (to create a file)
+cat file1.txt (to see the content of the file)
+echo "Hello World" > file1.txt (to write in the file)
+cat file1.txt (to see the content of the file)
+echo "Hello World" >> file1.txt (to append in the file)
+echo -n "Hello World" >> file1.txt (to append in the file without new line)
+cat file1.txt (to see the content of the file)
+rm file1.txt (to remove the file)
+cat file1.txt (to see the content of the file)
+
+
+file to file appending with cat ----->
+
+
+cat file1.txt file2.txt > file3.txt (to write the content of  file1.txt and file2.txt in file3.txt) ----- main content of file3.txt will be removed and new content will be added.If file3.txt does not exist , it will be created
+cat file1.txt file2.txt >> file3.txt (to append file1.txt and file2.txt in file3.txt)-----main content of file3.txt will not be removed . only append the content of file1.txt and file2.txt.If file3.txt does not exist , it will be created
+cat file1.txt file2.txt (to see the content of the file) -- this will show the content of file1.txt and file2.txt but not create any additional file
+cat "Hello world" > file1.txt (to write "Hello world" in file1.txt)
+
+cat > file3.txt (to create a file and write in it in interactive mode..if the file already exists , rewrite it ) --ctrl+d to save the file
+cat > file2.txt
+Hello, this is my text.
+This will be saved in file2.txt.
+(ctrl+d to save the file)
+
+cat file2.txt (to see the content of the file)
+
+to append again in the file 
+cat >>file2.txt (you will again enter in the interactive mode and write in the file)
+Hello, this is my text.
+This will be saved in file2.txt.
+ctrl+d (to save the file)
+cat file2.txt (to see the content of the file)
+
+
+to summerize :
+cat file.txt(read)
+cat > file.txt(write)
+cat >> file.txt(append)
+ctrl+d(save , in the case of write and append)
+
+
+
+
+
+copy command
+cp [source] [destination]
+cp file1.txt /home/username/Desktop (to copy file1.txt to desktopA file named file1.txt will be created in the desktop)
+cp file1.txt file2.txt (to copy file1.txt to file2.txt)
+
